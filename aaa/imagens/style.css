@@ -1,0 +1,82 @@
+*{
+    min-height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-image: linear-gradient(#AFB1F5, #78458A, #787AA3);
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.imagem{
+    width: 80px;
+    margin-top: -11px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.entrar{
+    color: white;
+    background-color: rgba(94, 226, 226, 0.911);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+}
+
+.inscrever{
+    border: none;
+    background-color: rgba(47, 172, 172, 0.692);
+}
+
+.escrito{
+    align-items: center;
+    margin-left: 85px;
+    margin-top: 150px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.email{
+    background-color: rgba(133, 233, 233, 0.356);
+    margin-left: 85px;
+    height: 45px;
+    padding: 5px 110px ;
+}
+
+.start{
+    height: 60px;
+    padding: 10px 55px;
+    background-color: rgba(169, 236, 214, 0.61);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    margin-left: 85px;
+    gap: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.conteudo{
+    display: flex;
+    justify-items: right;
+    font-family: 'love';
+}
+
+.largato{
+    margin-top: -250px;
+    margin-left: 120px;
+}
+

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(img/preto);
+    font-family: london;
+    color: aliceblue;   
+    font-size: x-large; 
+    font-weight: 50;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-size: x-large;
+
+}
+.cabecalho-menu{
+    margin-top: -7%;
+    margin-right: -20%;
+    display: flex;
+    gap: 30px; 
+    font-weight: 50;
+    font-size: x-large;
+    font-family: london;
+}
+
+.cabecalho-meio{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 20px;
+}
+
+.cabecalho-imagem{
+    display: flex;
+    margin-top: -4%;
+    margin-left: -28%;
+    width: 240px;
+    padding: 0px;
+}
+
+.botao{
+    border-radius: 15%;
+    text-decoration: none;
+    width:10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.tatuagem{
+    display: flex;
+    align-items: center;
+    margin-top: -0%;
+
+
+}
+
+.cabecalho-menu-item{
+    text-decoration: none;
+}
+
+.foto-baixo{
+    display: flex;
+    align-items:center;
+    width: 500px;
+    margin-left: 40px;
+}
+
+.fundo-baixo{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height: 480px;
+
+}

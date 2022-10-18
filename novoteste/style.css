@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Qwitcher+Grypen:wght@700&display=swap');
+
+
+body{
+    text-decoration: none;
+    text-align: center;
+    background-position-x: left 10px;
+    background-image: linear-gradient(to right,#0BABBB
+,#0B97C8,#0081fade);
+    text-justify: distribute-all-lines;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.meio{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.imagem{
+    display: block;
+    align-self: flex-end;
+    margin-top: -400px;
+    margin-right: 180px;
+    
+}
+
+h1{
+    font-weight: 200;
+    font-size:50px;
+    margin-top: -2px;
+}
+
+.botao{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: salmon;
+    color: beige;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400px;
+
+}
+
+.botao:hover{
+    color: cadetblue;
+}
